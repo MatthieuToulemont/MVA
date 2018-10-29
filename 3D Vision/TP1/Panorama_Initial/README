@@ -1,0 +1,14 @@
+Toulemont
+Matthieu 
+
+TP1 3D vision Panorama 
+_______________________
+
+
+Notes pour l'utilsateur : 
+	- Une fois le script exécuté vous verrez apparaître deux photos d'une même voiture. Le but est d'en faire un panorama.
+	- Veuillez sélectionner 4 zones communes de la voiture sur chacune des images. 
+	- Attention ces zones doivent être sélectionnées dans le même ordre. Par exemple si vous commencez par le phare sur une image, vous devrez ensuite cliquer sur même phare sur la seconde.
+	- Une fois que vous aurez sélectionner 4 zones veuillez utiliser le clique droit pour afficher le panorama. 
+	- Si vous avez sélectionner les zones communes dans le même ordre alors vous verrez apparaître un panorama résultant des deux photos originales.  
+
