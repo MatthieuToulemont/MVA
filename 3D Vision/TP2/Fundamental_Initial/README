@@ -1,0 +1,30 @@
+TOULEMONT
+Matthieu
+MVA - 3D vision
+
+Tp : Fundamenntal Matrix
+
+Notes pour le correcteur : 
+--------------------------
+Je n'ai pas réussi à faire le rafinement des moindres carrés. 
+Si j'ai bien compris il faut calculer A avec tous les inliers. 
+Trouver sa décomposition SVD, et prendre la dernière colonne de V. 
+On obtient ainsi F. On le rend de rang 2 par mettant à zéro sa troisième valeur singulière. 
+Puis on applique la normlisation. 
+
+Toutefois je n'ai pas réussi à définir de FMatrix<float, matches.size(), 9> A
+car matches.size() n'est pas 'const'. Ne voulant pas polluer le code je n'ai pas mis ma fonction LeastSquares.
+
+
+
+
+Notes pour l'utilisateur :
+-----------------------------
+
+
+Lorsque vous exécutez le code Fundamental.cpp vous verrez dans un premier temps apparaître les descripteurs SIFT dans les deux images. 
+
+	- Une fois que le nombre de SIFT par image et que le nombbre de match est affiché, utilisez le clique gauche pour calculer la matrice fondamentale et afficher les inliers. 
+	- Une fois que les inliers sont afffichés, un clic gauche les fera disparaître. 	
+	- Vous pouvez désormais utilisé le clic gauche pour clique sur l'image que vous déssirez et afficher les lignes épipolaires sur l'autre images. 
+	- Lorsque vous le souhaitez, un clic droit permet de fermer l'application.
