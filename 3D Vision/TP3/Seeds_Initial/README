@@ -1,0 +1,14 @@
+MVA - TP3 : Seeds
+___________________
+
+TOULEMONT Matthieu
+matthieu.toulemont@eleves.enpc.fr
+
+
+Notes pour l'utilisateur : 
+---------------------------
+
+Le code Seeds.cpp permet d'estimer la carte de disparité entre deux images représentant une même scène. 
+
+En sortie vous pouvez utiliser la touche "shift" avec la souris pour animer l'interface 3D. La mollette permet de zoomer et de dé-zoomer.
+
