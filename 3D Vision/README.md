@@ -7,4 +7,4 @@ We use SIFT descriptors and RANSAC to compute the fundamental matrix of a camera
 ## TP3
 Given two images of the same scene we compute the disparity map by a greedy approach using correlations. Once estimated we use the disparity map to reconstruct a 3D profile of the scene. 
 ## TP4
-Given two images of the same object we compute the disparity map and reconstruct a 3D profile off the object.
+Given two images of the same object we compute the disparity map and reconstruct a 3D profile of the object.
